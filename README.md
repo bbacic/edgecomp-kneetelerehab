@@ -171,7 +171,7 @@ If you use this code, workflow, or benchmarking methodology in academic work, pl
 ```bibtex id="gh2g3j"
 @inproceedings{jetson_telerehab_benchmark,
   title     = {Edge Deployment for Privacy-preserving Telerehabilitation: A Cross-platform Feasibility Study for Knee Rehabilitation},
-  author    = {Weerakoon, Tharika and Ba{\v{c}}i{\'{c}}, Boris and GholamHosseini, Hamid and Martin,  {\v{S}}tufi},
+  author    = {Weerakoon, Tharika and Ba{\v{c}}i{\'{c}}, Boris and GholamHosseini, Hamid and Martin,  {\v{S}tufi}},
   booktitle = {Future Technologies Conference},
   year      = {2026},
   note      = {Camera-ready version}
