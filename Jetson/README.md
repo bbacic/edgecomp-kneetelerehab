@@ -6,8 +6,8 @@ This folder contains the platform-specific scripts and setup used to run the Med
 
 The Jetson workflow supports both:
 
-* **pre-recorded video processing**
-* **real-time CSI camerafeed processing**
+* **Pre-recorded video processing**
+* **Real-time CSI camerafeed processing**
 
 and is used to evaluate the feasibility of Jetson as an edge platform for near-real-time, privacy-preserving rehabilitation analytics.
 
@@ -15,10 +15,10 @@ and is used to evaluate the feasibility of Jetson as an edge platform for near-r
 
 This folder includes scripts and configurations for:
 
-* pre-recorded video analysis on Jetson
-* real-time CSI camera capture and processing
+* Pre-recorded video analysis on Jetson
+* Real-time CSI camera capture and processing
 * GUI and headless execution
-* benchmarking and performance logging
+* Benchmarking and performance logging
 
 ## Environment Setup
 
@@ -100,18 +100,18 @@ python3 main_csi_camerafeed.py \
 Depending on the script and execution mode, outputs may include:
 
 * CSV benchmarking logs
-* knee-angle computation results
-* live or replayed pose visualisation
-* timing metrics for downstream analysis
+* Knee-angle computation results
+* Live or replayed pose visualisation
+* Timing metrics for downstream analysis
 
 ## Role in the Benchmark Study
 
 Within the broader cross-platform feasibility study, the Jetson workflow is used to assess:
 
-* live edge deployment performance
+* Live edge deployment performance
 * CSI camera-based rehabilitation monitoring
 * GUI versus headless execution overhead
-* platform suitability for compact, privacy-preserving, near-real-time rehabilitation analytics
+* Platform suitability for compact, privacy-preserving, near-real-time rehabilitation analytics
 
 ## Related Folders
 
