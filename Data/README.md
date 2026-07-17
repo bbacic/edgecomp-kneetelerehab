@@ -6,8 +6,8 @@ This folder contains the summary-level benchmarking data and analysis code used 
 
 The analysis supports the cross-platform feasibility study by reproducing summary metrics, derived performance measures, and publication figures from both:
 
-* **pre-recorded video experiments**
-* **live camerafeed experiments**
+* **Pre-recorded video experiments**
+* **Live camerafeed experiments**
 
 ## Contents
 
@@ -40,11 +40,11 @@ The analysis script expects one CSV file at a time, with one row per experimenta
 
 The analysis script can compute additional benchmarking measures, including:
 
-* **effective FPS**
-* **slowdown factor**
-* cross-platform timing summaries
-* execution-mode comparisons
-* mean timing breakdowns for publication figures
+* **Effective FPS**
+* **Slowdown factor**
+* Cross-platform timing summaries
+* Execution-mode comparisons
+* Mean timing breakdowns for publication figures
 
 ## Running the Analysis
 
@@ -66,10 +66,10 @@ python results_analysis.py --csv camerafeed_master_analysis.csv --out ../figures
 
 The analysis script can generate:
 
-* summary figures for publication
-* derived benchmarking metrics
-* timing breakdown summaries
-* analysis-ready outputs for cross-platform comparison
+* Summary figures for publication
+* Derived benchmarking metrics
+* Timing breakdown summaries
+* Analysis-ready outputs for cross-platform comparison
 
 ## Notes
 

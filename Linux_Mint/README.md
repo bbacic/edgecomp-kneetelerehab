@@ -6,8 +6,8 @@ This folder contains the platform-specific scripts and execution workflow used t
 
 The Linux Mint workflow supports both:
 
-* **pre-recorded video processing**
-* **real-time camera feed processing**
+* **Pre-recorded video processing**
+* **Real-time camera feed processing**
 
 and contributes to the cross-platform feasibility study by enabling comparison with **Windows** and **NVIDIA Jetson Orin NX** under GUI and CLI execution conditions.
 
@@ -66,27 +66,27 @@ python main.py \
 The Linux Mint scripts include:
 
 * MediaPipe Pose estimation
-* custom knee-angle computation
+* Custom knee-angle computation
 * CSV export
-* benchmarking and timing logging
+* Benchmarking and timing logging
 
 ## Output
 
 Depending on the script and execution mode, outputs may include:
 
 * CSV benchmarking logs
-* knee-angle computation outputs
-* processed video or live-feed results
-* analysis-ready timing data for cross-platform comparison
+* Knee-angle computation outputs
+* Processed video or live-feed results
+* Analysis-ready timing data for cross-platform comparison
 
 ## Role in the Benchmark Study
 
 Within the broader benchmark study, the Linux Mint workflow is used to assess:
 
-* performance of a repurposed general-purpose platform
-* pre-recorded and live processing behaviour
+* Performance of a repurposed general-purpose platform
+* Pre-recorded and live processing behaviour
 * GUI versus CLI execution overhead
-* cross-platform timing differences relative to Windows and NVIDIA Jetson
+* Cross-platform timing differences relative to Windows and NVIDIA Jetson
 
 ## Related Folders
 
