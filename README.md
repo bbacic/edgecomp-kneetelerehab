@@ -38,12 +38,12 @@ The benchmark does **not** evaluate clinical validity, diagnostic accuracy, or p
 
 The benchmarking workflow is based on a MediaPipe Pose pipeline for knee rehabilitation movement analysis. The core stages include:
 
-1. video or camerafeed acquisition
-2. frame preprocessing
-3. pose landmark inference using MediaPipe Pose
-4. knee-angle and movement-related kinematic computation
-5. optional GUI rendering and visual overlays
-6. logging of timing and execution metadata
+1. Video or camerafeed acquisition
+2. Frame preprocessing
+3. Pose landmark inference using MediaPipe Pose
+4. Knee-angle and movement-related kinematic computation
+5. Pptional GUI rendering and visual overlays
+6. Logging of timing and execution metadata
 
 The extracted benchmarking parameters include:
 
