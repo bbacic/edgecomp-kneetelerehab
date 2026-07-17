@@ -24,11 +24,11 @@ The purpose of this benchmark is to evaluate whether a pose-estimation-based kne
 
 More specifically, the study examines:
 
-* cross-platform timing behaviour
+* Cross-platform timing behaviour
 * GUI versus CLI execution overhead
-* live versus pre-recorded input conditions
-* platform suitability for near-real-time edge deployment
-* system bottlenecks related to read time, inference time, and non-inference overhead
+* Live versus pre-recorded input conditions
+* Platform suitability for near-real-time edge deployment
+* System bottlenecks related to read time, inference time, and non-inference overhead
 
 ## Benchmark Scope
 
@@ -47,16 +47,16 @@ The benchmarking workflow is based on a MediaPipe Pose pipeline for knee rehabil
 
 The extracted benchmarking parameters include:
 
-* total processing time
-* number of processed frames
-* nominal input FPS
-* average frame time (AFT)
-* average read time (ART)
-* average MediaPipe inference time (AMT)
-* average other time (AOT)
-* effective FPS
-* slowdown factor
-* execution metadata
+* Total processing time
+* Number of processed frames
+* Nominal input FPS
+* Average frame time (AFT)
+* Average read time (ART)
+* Average MediaPipe inference time (AMT)
+* Average other time (AOT)
+* Effective FPS
+* Slowdown factor
+* Execution metadata
 
 ## Experimental Platforms
 
@@ -83,10 +83,10 @@ Windows and Linux experiments were executed on older laptop hardware to evaluate
 
 This repository is intended to support:
 
-* reproducible benchmarking of edge-based rehabilitation analytics
-* comparative analysis of embedded and desktop-class deployment environments
-* future research on privacy-preserving, locally governed telerehabilitation
-* extension toward multimodal and real-time rehabilitation monitoring systems
+* Reproducible benchmarking of edge-based rehabilitation analytics
+* Comparative analysis of embedded and desktop-class deployment environments
+* Future research on privacy-preserving, locally governed telerehabilitation
+* Extension toward multimodal and real-time rehabilitation monitoring systems
 
 ## Requirements
 
@@ -99,9 +99,9 @@ This repository is intended to support:
 
 Depending on the platform, additional dependencies may be required for:
 
-* webcam or CSI camera access
+* Webcam or CSI camera access
 * GStreamer integration
-* platform-specific OpenCV builds
+* Platform-specific OpenCV builds
 
 ## Installation
 
@@ -117,8 +117,8 @@ If dependencies are being installed manually, ensure that MediaPipe, OpenCV, Num
 
 Run the benchmarking workflow from terminal or command prompt using the relevant script for:
 
-* pre-recorded video processing
-* live camerafeed processing
+* Pre-recorded video processing
+* Live camerafeed processing
 * GUI mode execution
 * CLI mode execution
 
@@ -141,9 +141,9 @@ Adapt script arguments as required for your local environment and hardware confi
 The benchmark can generate:
 
 * CSV files containing timing and execution metadata
-* augmented or visualised processing output in GUI mode
-* cross-platform timing summaries
-* analysis-ready benchmarking results for figures and tables
+* Augmented or visualised processing output in GUI mode
+* Cross-platform timing summaries
+* Analysis-ready benchmarking results for figures and tables
 
 ## Notes on Interpretation
 
@@ -155,10 +155,10 @@ The benchmark can generate:
 
 This repository is intended for:
 
-* benchmarking studies
-* systems feasibility analysis
-* prototype edge deployment research
-* privacy-preserving rehabilitation analytics research
+* Benchmarking studies
+* Systems feasibility analysis
+* Prototype edge deployment research
+* Privacy-preserving rehabilitation analytics research
 
 It is **not** intended to function as a clinical decision-support tool or a validated medical device.
 
@@ -184,11 +184,11 @@ Update the entry as needed once full publication metadata is available.
 
 The benchmark provides a systems-level foundation for future work on:
 
-* live data-streaming rehabilitation systems
-* multimodal movement analysis
-* locally governed and patient-controlled analytics workflows
-* assistive monitoring and sports rehabilitation extensions
-* integration of cognitive, biomechanical, and neurofeedback-informed processing
+* Live data-streaming rehabilitation systems
+* Multimodal movement analysis
+* Locally governed and patient-controlled analytics workflows
+* Assistive monitoring and sports rehabilitation extensions
+* Integration of cognitive, biomechanical, and neurofeedback-informed processing
 
 ## Disclaimer
 
